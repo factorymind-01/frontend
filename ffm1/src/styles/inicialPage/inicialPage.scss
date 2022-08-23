@@ -1,0 +1,19 @@
+.box_inicialPage {
+    display:flex;
+    //flex-direction: column;
+    justify-content: center;
+    //border:1px solid red;
+}
+.box_inicialPage .centralTx {
+    display:flex;
+    margin:10px;
+    //border:1px solid rgb(0, 102, 255);
+}
+.box_inicialPage .centralImg {
+    display:flex;
+    //border:1px solid rgb(0, 102, 255);
+}
+.box_inicialPage .centralImg .centralImg_img {
+    display:flex;
+    //border:1px solid red;
+}
