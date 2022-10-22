@@ -25,7 +25,7 @@
   "plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
   "rules": {
     "react/jsx-filename-extension": [
-      1,
+      0,
       {
         "extensions": [".js", ".jsx", ".ts", ".tsx"]
       }
