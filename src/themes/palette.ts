@@ -3,7 +3,9 @@
  * @param {JsonObject} theme Theme customization object
  */
 
-export default function themePalette(theme: any) {
+import { DefaultPaletteOptions } from '@customTypes/theme';
+
+export default function themePalette(theme: any): DefaultPaletteOptions {
   return {
     mode: theme?.customization?.navType,
     common: {
@@ -41,6 +43,7 @@ export default function themePalette(theme: any) {
     success: {
       light: theme.colors?.successLight,
       200: theme.colors?.success200,
+      800: theme.colors?.success800,
       main: theme.colors?.successMain,
       dark: theme.colors?.successDark
     },
@@ -61,9 +64,7 @@ export default function themePalette(theme: any) {
     },
     text: {
       primary: theme.darkTextPrimary,
-      secondary: theme.darkTextSecondary,
-      dark: theme.textDark,
-      hint: theme.colors?.grey100
+      secondary: theme.darkTextSecondary
     },
     background: {
       paper: theme.paper,

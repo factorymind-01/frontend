@@ -9,31 +9,6 @@ import componentStyleOverrides from './compStyleOverride';
 import themePalette from './palette';
 import themeTypography from './typography';
 
-declare module '@mui/material/styles' {
-  interface TypographyVariants {
-    mainContent: React.CSSProperties;
-    commonAvatar?: React.CSSProperties;
-    smallAvatar?: React.CSSProperties;
-    mediumAvatar?: React.CSSProperties;
-    largeAvatar?: React.CSSProperties;
-    menuCaption?: React.CSSProperties;
-    subMenuCaption?: React.CSSProperties;
-    caption?: React.CSSProperties;
-  }
-
-  // allow configuration using `createTheme`
-  interface TypographyVariantsOptions {
-    mainContent?: React.CSSProperties;
-    commonAvatar?: React.CSSProperties;
-    smallAvatar?: React.CSSProperties;
-    mediumAvatar?: React.CSSProperties;
-    largeAvatar?: React.CSSProperties;
-    menuCaption?: React.CSSProperties;
-    subMenuCaption?: React.CSSProperties;
-    caption?: React.CSSProperties;
-  }
-}
-
 /**
  * Represent theme style and structure as per Material-UI
  * @param {JsonObject} customization customization parameter object
