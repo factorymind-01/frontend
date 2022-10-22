@@ -13,25 +13,25 @@ const Dashboard = () => {
     <>
       <Container>
         <Grid container spacing={2}>
-          <Grid item xs={6}>
+          <Grid item xs={12} sm={6}>
             <Item>
               <EletronicaChartCard />
             </Item>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12} sm={6}>
             <Item>
               <MecanicaChartCard />
             </Item>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12} sm={6}>
             <Item>
               <ProgramacaoChartCard />
             </Item>
           </Grid>
 
-          <Grid item xs={6}>
+          <Grid item xs={12} sm={6}>
             <Item>
               <RoboticaChartCard />
             </Item>
