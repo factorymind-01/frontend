@@ -63,7 +63,8 @@ const ProfileSection = () => {
           height: '48px',
           alignItems: 'center',
           borderRadius: '27px',
-          border: 'none',
+          borderColor: theme.palette.primary.light,
+          backgroundColor: theme.palette.primary.light,
           '&[aria-controls="menu-list-grow"], &:hover': {
             background: `${theme.palette.primary.main}!important`,
             '& svg': {

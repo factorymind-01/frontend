@@ -1,7 +1,7 @@
-
 # FactoryMind -- Front-end
 
 Social Robotics and Artificial Cognitive Intelligence Group of Research
+
 <div align='center'>
 
 ![Logo](https://i.ibb.co/gTPMgG3/factory-mind-t.png)
@@ -11,7 +11,6 @@ Social Robotics and Artificial Cognitive Intelligence Group of Research
 ## Tech Stack
 
 React.js, Typescript, Material-UI v5+, Apexcharts
-
 
 ## Run Locally
 
@@ -39,21 +38,20 @@ Start the server
   npm run start
 ```
 
-
 ## Authors
 
 - [@mkyy](https://www.github.com/mkyy)
-
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
 
+## Support
+
+For support, join us at [Discord](https://discord.com/invite/XabxzTdbnS). Or send a message on [Telegram](https://t.me/+iiQUEvWeN6I4Yjdh) !
 
 ## Contributing
 
 Contributions are always welcome!
 
 Please adhere to this project's `code of conduct`.
-
-Join us at [Discord](https://discord.com/invite/XabxzTdbnS)!
