@@ -1,6 +1,6 @@
 # FactoryMind -- Front-end
 
-Social Robotics and Artificial Cognitive Intelligence Group of Research
+Social Robotics and Artificial Cognitive Systems Group of Research
 
 <div align='center'>
 
