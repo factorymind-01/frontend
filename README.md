@@ -17,13 +17,13 @@ React.js, Typescript, Material-UI v5+, Apexcharts
 Clone the project
 
 ```bash
-  git clone git@github.com:factorymind-01/3--Front-end.git
+  git clone git@github.com:factorymind-01/frontend.git
 ```
 
 Go to the project directory
 
 ```bash
-  cd 3--Front-end
+  cd frontend
 ```
 
 Install dependencies
